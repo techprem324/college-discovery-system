@@ -1,12 +1,11 @@
 run = "npm run dev"
 entrypoint = "src/app/page.tsx"
-modules = ["nodejs-20"]
 
 [nix]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "npm run build && npm start"]
+run = ["sh", "-c", "npm run build && npm run start"]
 deploymentTarget = "cloudrun"
 
 [[ports]]
