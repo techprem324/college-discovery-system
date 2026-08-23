@@ -9,7 +9,7 @@ CampusIQ is an enterprise-grade higher education institution evaluation platform
 ### 1. Multi-Faceted Search & Faceted Filter Matrix (`/colleges`)
 - **URL-First State Sync**: Uses search parameters (`?q=&stream=&state=&feeMin=&feeMax=&ownership=&sort=`) as the single source of truth for deep-linkable queries.
 - **Faceted Counting Engine**: Computes real-time match counters for each filter facet.
-- **Debounced Input**: Smooth search input processing without UI flicker.
+- **Debounced Input**: Smooth search input processing without UI/UX flicker.
 - **Responsive Layout**: Desktop sticky sidebar filter panel paired with a triggerable mobile slide-over drawer.
 
 ### 2. Dynamic Side-by-Side Comparison Matrix (`/compare` & `CompareTray`)
